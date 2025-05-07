@@ -1,46 +1,24 @@
-# T3Board
-# 🎮 T3Board — Tic-Tac-Toe Web Application
+# Tic-Tac-Toe Web Game
 
-A modern, interactive, and responsive **Tic-Tac-Toe** game built with **HTML**, **CSS**, and **JavaScript**. T3Board offers a clean UI and intuitive gameplay for two players — and soon, you’ll be able to challenge an AI opponent!
+A modern, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play against another player in this classic game of X's and O's.
 
----
+## Features
 
-## 🚀 Features
+- Clean, modern UI
+- Two-player gameplay
+- Win detection
+- Game state tracking
+- Responsive design
 
-- 🖱️ Click-to-play user interaction
-- 🔁 Dynamic turn switching (X and O)
-- ✅ Win and draw detection
-- 📱 Fully responsive design
-- 🎯 Clean, minimalistic UI
-- 🧠 AI opponent mode coming soon!
+## How to Play
 
----
+1. Open `index.html` in your web browser
+2. Players take turns clicking on empty cells to place their marker (X or O)
+3. First player to get three in a row (horizontally, vertically, or diagonally) wins
+4. If no player gets three in a row and all cells are filled, the game is a draw
 
-## 🧠 Tech Stack
+## Technologies Used
 
-- **HTML5** – Structure and layout  
-- **CSS3** – Styling and responsive design  
-- **JavaScript (Vanilla)** – Game logic and interactivity  
-
----
-
-## 🖥️ Live Preview
-
-> Coming Soon...  
-> *(You can deploy easily using GitHub Pages, Netlify, or Vercel)*
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of gameplay in the `/screenshots` folder or embed them here
-
----
-
-## 📂 Folder Structure
-
-```bash
-T3Board/
-├── index.html         # Main game structure
-├── style.css          # All UI and styling
-└── script.js          # Game logic and interactivity
+- HTML5
+- CSS3
+- JavaScript (ES6+) 

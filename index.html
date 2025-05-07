@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        
+        <div class="player-setup" id="playerSetup">
+            <div class="input-group">
+                <label for="playerX">Player X Name:</label>
+                <input type="text" id="playerX" placeholder="Enter Player X name">
+            </div>
+            <div class="input-group">
+                <label for="playerO">Player O Name:</label>
+                <input type="text" id="playerO" placeholder="Enter Player O name">
+            </div>
+            <button id="startGameBtn">Start Game</button>
+        </div>
+
+        <div class="game-area" id="gameArea" style="display: none;">
+            <div class="score-board">
+                <div class="score" id="scoreX">
+                    <span class="player-name">Player X</span>
+                    <span class="score-value">0</span>
+                </div>
+                <div class="score" id="scoreO">
+                    <span class="player-name">Player O</span>
+                    <span class="score-value">0</span>
+                </div>
+            </div>
+
+            <div class="status" id="status">Player X's turn</div>
+            <div class="game-board" id="board">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+            <div class="controls">
+                <button id="restartButton">New Game</button>
+                <button id="resetScoreButton">Reset Score</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="clickSound" src="https://assets.mixkit.co/active_storage/sfx/2579/2579-preview.mp3"></audio>
+    <audio id="winSound" src="https://assets.mixkit.co/active_storage/sfx/1439/1439-preview.mp3"></audio>
+    <audio id="drawSound" src="https://assets.mixkit.co/active_storage/sfx/1438/1438-preview.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html> 
